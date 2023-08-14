@@ -1,0 +1,30 @@
+.homeWrapper {
+  height: 100vh;
+
+  .introduction {
+    height: 95%;
+    width: 90%;
+    background-image: url("/images/marmitas.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .description {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Anton", sans-serif;
+      font-size: 120px;
+      color: var(--secondary-color);
+      text-shadow: 3px 17px var(--primary-color);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    font-size: 60px !important;
+  }
+}

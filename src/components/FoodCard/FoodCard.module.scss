@@ -1,0 +1,12 @@
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  .card {
+    background-color: #fff;
+    height: min-content;
+    margin: 0 7px var(--spacing-medium) 7px;
+  }
+}

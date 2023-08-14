@@ -1,0 +1,20 @@
+.aboutUsWrapper {
+  background-image: url("/images/background.png");
+  background-size: 200px;
+  background-repeat: repeat;
+  background-clip: border-box;
+  padding: var(--spacing-large) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-large);
+  }
+}

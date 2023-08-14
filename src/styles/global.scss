@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&family=Poppins:wght@200;300;400;500;600&family=Zeyada&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  // font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: var(--paragraph-font);
+  color: #2d2d2d;
+}
+
+.text {
+  color: rgb(68, 68, 68);
+}
+
+:root {
+  --primary-color: #9a0a0a;
+  --secondary-color: #f2cc67;
+  --green: #6d9788;
+  --gray: #1e2528;
+  --red: #bf0a0d;
+  --red-1: #9a0a0a84;
+  --yellow: #e6e1c2;
+  --beige: #f5f5dc;
+  --spacing-tiny: 8px;
+  --spacing-small: 16px;
+  --spacing-medium: 32px;
+  --spacing-large: 64px;
+  --spacing-xLarge: 128px;
+  --section-spacing: 80px;
+  --title-font: 32px;
+  --subtitle-font: 22px;
+  --paragraph-font: 14px;
+}

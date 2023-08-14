@@ -1,0 +1,47 @@
+.headerWrapper {
+  position: fixed;
+
+  .menu {
+    width: 100vw;
+    height: 60px;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    .logo {
+      cursor: pointer;
+    }
+
+    .title {
+      text-transform: uppercase;
+      font-family: "Playfair Display", serif;
+      color: var(--primary-color);
+      font-size: 22px;
+    }
+
+    .link {
+      width: 20px;
+      margin-right: 25px;
+
+      &:hover {
+        animation: whatsapp 1s linear;
+      }
+    }
+  }
+}
+
+@keyframes whatsapp {
+  0% {
+    transform: rotate(12deg);
+  }
+
+  50% {
+    transform: rotate(-12deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

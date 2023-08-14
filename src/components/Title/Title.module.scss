@@ -1,0 +1,13 @@
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: var(--title-font);
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: var(--beige);
+  padding: 0 var(--spacing-large);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-bottom: var(--spacing-large);
+  width: fit-content;
+}

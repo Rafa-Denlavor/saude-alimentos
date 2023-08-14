@@ -1,0 +1,31 @@
+.cardWrapper {
+  width: 220px;
+  min-height: 350px;
+  min-height: 380px;
+  background-color: white;
+  margin-bottom: var(--spacing-medium);
+  border-radius: 5px;
+  box-shadow: 20px 20px 7px -12px gray;
+
+  .ilustration {
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .infoBox {
+    padding: var(--spacing-small);
+
+    h2 {
+      font-size: var(--subtitle-font);
+      padding-bottom: var(--spacing-tiny);
+      font-weight: bold;
+      color: var(--primary-color);
+      font-family: "Zeyada", cursive;
+    }
+
+    p {
+      line-height: 18px;
+    }
+  }
+}

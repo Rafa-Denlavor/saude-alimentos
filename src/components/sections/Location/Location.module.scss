@@ -1,0 +1,40 @@
+.location {
+  margin: var(--spacing-medium) auto;
+  width: 65%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 65vh;
+
+  .textBox {
+    width: 40%;
+    max-width: 90%;
+
+    p {
+      line-height: 22px;
+      margin-bottom: var(--spacing-medium);
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .location {
+    width: 100%;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .textBox {
+    display: contents;
+    justify-content: center;
+
+    p {
+      width: 80% !important;
+    }
+  }
+}

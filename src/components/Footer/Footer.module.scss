@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--primary-color);
+  padding: var(--spacing-medium);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  color: white;
+
+  .topicsBox {
+    display: flex;
+    gap: var(--spacing-medium);
+
+    ul {
+      list-style-type: none;
+
+      .primaryItem {
+        font-weight: bold;
+      }
+
+      .items {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.738);
+      }
+    }
+  }
+
+  .infoDeveloper {
+    color: white !important;
+  }
+}
